@@ -21,6 +21,7 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/pabrahamsson/hyprpanel/repo/fedora-%OS_VERSION%/pabrahamsson-hyprpanel-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/brycensranch/gpu-screen-recorder-git/repo/fedora-%OS_VERSION%/brycensranch-gpu-screen-recorder-git-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/solopasha/astal/repo/fedora-%OS_VERSION%/solopasha-astal-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/heus-sueh/packages/repo/fedora-%OS_VERSION%/heus-sueh-packages-fedora-%OS_VERSION%.repo
     install:
       - gvfs-smb
       - zsh
@@ -39,7 +40,6 @@ modules:
       - hyprsunset
       - adw-gtk3-theme
       - hyprpicker
-      - hyprshot
       - xdg-desktop-portal-hyprland
       - hyprcursor
       - hyprland-qtutils
@@ -50,6 +50,18 @@ modules:
       - hyprland
       - micro
       - starship
+      - power-profiles-daemon
+      - swww
+      - matugen
+      - upower
+      - libgtop2
+      - grimblast
+      - nodejs
+      - brightnessctl
+      - npm
+      - meson
+    remove:
+      - tuned
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
