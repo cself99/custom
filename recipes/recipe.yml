@@ -24,6 +24,7 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/pabrahamsson/hyprpanel/repo/fedora-%OS_VERSION%/pabrahamsson-hyprpanel-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/sneexy/zen-browser/repo/fedora-%OS_VERSION%/sneexy-zen-browser-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/brycensranch/gpu-screen-recorder-git/repo/fedora-%OS_VERSION%/brycensranch-gpu-screen-recorder-git-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/solopasha/astal/repo/fedora-%OS_VERSION%/solopasha-astal-fedora-%OS_VERSION%.repo
     install:
       - nautilus
       - zsh
@@ -56,6 +57,7 @@ modules:
       - micro
       - starship
     remove:
+      - power-profiles-daemon
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
 
