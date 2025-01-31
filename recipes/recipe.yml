@@ -34,7 +34,6 @@ modules:
       - mpv
       - neovim
       - btop
-      - zen-browser
       - jq
       - qt6ct
       - hyprsunset
