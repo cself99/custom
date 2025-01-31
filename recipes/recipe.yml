@@ -61,6 +61,7 @@ modules:
       - npm
       - meson
     remove:
+      - tuned-ppd
       - tuned
 
   - type: default-flatpaks
