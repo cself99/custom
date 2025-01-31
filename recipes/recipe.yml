@@ -75,8 +75,6 @@ modules:
         - com.github.tchx84.Flatseal
         - com.plexamp.Plexamp
         - md.obsidian.Obsidian
-      remove:
-        - org.gnome.eog
     user: {}
 
   - type: fonts
