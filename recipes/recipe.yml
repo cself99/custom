@@ -22,6 +22,7 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/brycensranch/gpu-screen-recorder-git/repo/fedora-%OS_VERSION%/brycensranch-gpu-screen-recorder-git-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/solopasha/astal/repo/fedora-%OS_VERSION%/solopasha-astal-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/heus-sueh/packages/repo/fedora-%OS_VERSION%/heus-sueh-packages-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/astrawan/nerd-fonts/repo/fedora-%OS_VERSION%/astrawan-nerd-fonts-fedora-%OS_VERSION%.repo
     install:
       - gvfs-smb
       - zsh
@@ -60,6 +61,17 @@ modules:
       - brightnessctl
       - npm
       - meson
+      - vala
+      - cava
+      - libcava
+      - astal
+      - astal-libs
+      - astal-gjs
+      - astal-gtk4
+      - astal-io
+      - astal-lua
+      - aylurs-gtk-shell2
+      - appmenu-glib-translator
     remove:
       - tuned-ppd
       - tuned
@@ -81,6 +93,7 @@ modules:
   - type: fonts
     fonts:
       nerd-fonts:
+        - CaskaydiaCove
         - FiraCode
         - Hack
         - SourceCodePro
