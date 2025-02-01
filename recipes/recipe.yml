@@ -35,7 +35,6 @@ modules:
       - qt6ct
       - hyprsunset
       - adw-gtk3-theme
-      - adwaita-qt6
       - hyprpicker
       - xdg-desktop-portal-hyprland
       - hyprcursor
