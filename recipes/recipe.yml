@@ -93,7 +93,7 @@ modules:
   - type: fonts
     fonts:
       nerd-fonts:
-        - CaskaydiaCove
+        - CascadiaCode
         - FiraCode
         - Hack
         - SourceCodePro
