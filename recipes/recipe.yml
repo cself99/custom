@@ -25,18 +25,17 @@ modules:
       - zsh
       - zsh-autosuggestions
       - rofi-wayland
-      - obs-studio
       - kitty
       - hyprpaper
       - blueman
       - playerctl
-      - mpv
       - neovim
       - btop
       - jq
       - qt6ct
       - hyprsunset
       - adw-gtk3-theme
+      - adwaita-qt6
       - hyprpicker
       - xdg-desktop-portal-hyprland
       - hyprcursor
@@ -45,6 +44,7 @@ modules:
       - hyprlock
       - hypridle
       - hyprland
+      - hyprpolkitagent
       - micro
       - starship
       - power-profiles-daemon
@@ -55,17 +55,9 @@ modules:
       - nodejs
       - brightnessctl
       - npm
-      - meson
       - vala
       - cava
-      - libcava
       - astal
-      - astal-libs
-      - astal-gjs
-      - astal-gtk4
-      - astal-io
-      - astal-lua
-      - aylurs-gtk-shell2
       - appmenu-glib-translator
       - rubygem-sass
     remove:
