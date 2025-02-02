@@ -59,6 +59,9 @@ modules:
       - astal
       - appmenu-glib-translator
       - rubygem-sass
+      - glfw
+      - mpv
+      - mpv-libs
     remove:
       - tuned-ppd
       - tuned
