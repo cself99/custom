@@ -46,7 +46,6 @@ modules:
       - hyprpolkitagent
       - micro
       - starship
-      - power-profiles-daemon
       - swww
       - upower
       - libgtop2
