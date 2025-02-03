@@ -63,6 +63,7 @@ modules:
       - mpv
       - mpv-libs
       - libGLEW
+      - nwg-look
     remove:
       - tuned-ppd
       - tuned
