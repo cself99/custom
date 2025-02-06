@@ -43,7 +43,7 @@ modules:
       - hyprlock
       - hypridle
       - hyprland
-      - hyprpolkitagent
+      - mate-polkit
       - micro
       - starship
       - swww
