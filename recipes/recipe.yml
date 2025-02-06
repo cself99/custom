@@ -69,12 +69,10 @@ modules:
     system:
       install:
         - app.zen_browser.zen
-        - ru.linux_gaming.PortProton
         - net.rpcs3.RPCS3
         - net.pcsx2.PCSX2
         - net.nokyan.Resources
         - com.github.tchx84.Flatseal
-        - com.plexamp.Plexamp
         - md.obsidian.Obsidian
     user: {}
 
