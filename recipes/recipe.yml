@@ -47,7 +47,6 @@ modules:
       - mate-polkit
       - micro
       - starship
-      - swww
       - upower
       - libgtop2
       - grimblast
