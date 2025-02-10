@@ -63,10 +63,6 @@ modules:
       - nwg-look
       - syncthing
       - lact
-      - swww
-    remove:
-      - swww-fish-completion
-      - swww-zsh-completion
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
