@@ -67,7 +67,6 @@ modules:
     remove:
       - swww-fish-completion
       - swww-zsh-completion
-      - swww-bash-completion
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
