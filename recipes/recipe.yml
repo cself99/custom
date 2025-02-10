@@ -6,7 +6,7 @@ name: c
 description: sdzfbbbbb
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/cosmic
+base-image: ghcr.io/ublue-os/bazzite-gnome
 image-version: 41 # latest is also supported if you want new updates ASAP
 modules:
   - type: files
@@ -66,6 +66,7 @@ modules:
       - lact
       - faugus-launcher
       - sc-controller
+      - fastfetch
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
