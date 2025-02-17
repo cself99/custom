@@ -24,8 +24,6 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/pabrahamsson/hyprpanel/repo/fedora-%OS_VERSION%/pabrahamsson-hyprpanel-fedora-%OS_VERSION%.repo
     install:
       - gvfs-smb
-      - zsh
-      - zsh-autosuggestions
       - rofi-wayland
       - kitty
       - hyprpaper
