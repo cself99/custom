@@ -65,7 +65,6 @@ modules:
       - syncthing
       - lact
       - faugus-launcher
-      - sc-controller
       - fastfetch
 
   - type: default-flatpaks
