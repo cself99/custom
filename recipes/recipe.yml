@@ -21,6 +21,7 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/solopasha/astal/repo/fedora-%OS_VERSION%/solopasha-astal-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/ilyaz/LACT/repo/fedora-%OS_VERSION%/ilyaz-LACT-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/faugus/faugus-launcher/repo/fedora-%OS_VERSION%/faugus-faugus-launcher-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/pabrahamsson/hyprpanel/repo/fedora-%OS_VERSION%/pabrahamsson-hyprpanel-fedora-%OS_VERSION%.repo
     install:
       - gvfs-smb
       - zsh
@@ -53,7 +54,6 @@ modules:
       - brightnessctl
       - npm
       - vala
-      - cava
       - astal
       - appmenu-glib-translator
       - rubygem-sass
@@ -66,6 +66,8 @@ modules:
       - lact
       - faugus-launcher
       - fastfetch
+      - uwsm
+      - hyprpanel
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
