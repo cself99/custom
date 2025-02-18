@@ -66,6 +66,8 @@ modules:
       - fastfetch
       - uwsm
       - hyprpanel
+    remove:
+      - fdk-aac-free
 
   - type: dnf
     source: ghcr.io/blue-build/modules/dnf:dnf-module
