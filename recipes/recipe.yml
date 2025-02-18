@@ -66,6 +66,9 @@ modules:
       - fastfetch
       - uwsm
       - hyprpanel
+    remove:
+      - yt-dlp-fish-completion
+      - swww-fish-completion
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
