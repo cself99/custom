@@ -6,7 +6,7 @@ name: c
 description: sdzfbbbbb
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/bazzite-gnome
+base-image: ghcr.io/ublue-os/bluefin
 image-version: 41 # latest is also supported if you want new updates ASAP
 modules:
   - type: files
@@ -66,8 +66,7 @@ modules:
       - fastfetch
       - uwsm
       - hyprpanel
-    remove:
-      - yt-dlp
+      - steam
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
