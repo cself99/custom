@@ -22,6 +22,8 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/ilyaz/LACT/repo/fedora-%OS_VERSION%/ilyaz-LACT-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/faugus/faugus-launcher/repo/fedora-%OS_VERSION%/faugus-faugus-launcher-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/pabrahamsson/hyprpanel/repo/fedora-%OS_VERSION%/pabrahamsson-hyprpanel-fedora-%OS_VERSION%.repo
+      - https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
+      - https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
     install:
       - gvfs-smb
       - rofi-wayland
