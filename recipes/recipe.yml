@@ -71,9 +71,7 @@ modules:
     source: ghcr.io/blue-build/modules/dnf:dnf-module
     install:
       packages:
-        - repo: https://negativo17.org/repos/steam/fedora-$releasever/$basearch/
-          packages:
-            - steam
+        - steam-1.0.0.82-1.fc41.i686.rpm
       install-weak-dependencies: false
 
   - type: default-flatpaks
