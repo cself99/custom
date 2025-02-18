@@ -67,8 +67,7 @@ modules:
       - uwsm
       - hyprpanel
     remove:
-      - yt-dlp-fish-completion
-      - swww-fish-completion
+      - yt-dlp
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
