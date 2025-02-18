@@ -72,6 +72,7 @@ modules:
     install:
       packages:
         - steam-1.0.0.82-1.fc41.i686.rpm
+        - steam-devices-1.0.0.82-1.fc41.noarch.rpm
       install-weak-dependencies: false
 
   - type: default-flatpaks
