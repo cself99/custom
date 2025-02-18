@@ -66,6 +66,7 @@ modules:
       - fastfetch
       - uwsm
       - hyprpanel
+      - libfdk-aac
     remove:
       - fdk-aac-free
 
