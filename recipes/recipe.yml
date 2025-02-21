@@ -41,7 +41,7 @@ modules:
       - hyprland-qtutils
       - hyprlock
       - hypridle
-      - hyprland
+      - hyprland-git
       - mate-polkit
       - micro
       - starship
