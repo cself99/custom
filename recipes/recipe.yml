@@ -6,7 +6,7 @@ name: c
 description: sdzfbbbbb
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/bluefin
+base-image: ghcr.io/ublue-os/bazzite-gnome
 image-version: 41 # latest is also supported if you want new updates ASAP
 modules:
   - type: files
@@ -65,7 +65,15 @@ modules:
       - faugus-launcher
       - fastfetch
       - uwsm
-      - hyprpanel
+
+  - type: dnf
+    source: ghcr.io/blue-build/modules/dnf:dnf-module
+    install:
+      packages:
+        - repo: https://copr.fedorainfracloud.org/coprs/pabrahamsson/hyprpanel/repo/fedora-%OS_VERSION%/pabrahamsson-hyprpanel-fedora-%OS_VERSION%.repo
+          packages:
+            - hyprpanel
+      install-weak-dependencies: false
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
