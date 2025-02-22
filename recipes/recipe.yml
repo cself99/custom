@@ -70,7 +70,7 @@ modules:
     source: ghcr.io/blue-build/modules/dnf:dnf-module
     install:
       packages:
-        - repo: https://copr.fedorainfracloud.org/coprs/pabrahamsson/hyprpanel/repo/fedora-%OS_VERSION%/pabrahamsson-hyprpanel-fedora-%OS_VERSION%.repo
+        - copr: pabrahamsson/hyprpanel
           packages:
             - hyprpanel
       install-weak-dependencies: false
