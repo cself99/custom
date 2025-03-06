@@ -52,7 +52,6 @@ modules:
       - brightnessctl
       - npm
       - vala
-      - astal
       - appmenu-glib-translator
       - rubygem-sass
       - glfw
