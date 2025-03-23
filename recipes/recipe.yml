@@ -50,6 +50,7 @@ modules:
       - grimblast
       - nodejs
       - brightnessctl
+      - astal
       - npm
       - vala
       - appmenu-glib-translator
