@@ -50,7 +50,6 @@ modules:
       - grimblast
       - nodejs
       - brightnessctl
-      - astal
       - npm
       - vala
       - appmenu-glib-translator
@@ -73,7 +72,7 @@ modules:
         - copr: pabrahamsson/hyprpanel
           packages:
             - hyprpanel
-      install-weak-dependencies: false
+      install-weak-dependencies: true
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
