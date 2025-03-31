@@ -57,6 +57,7 @@ modules:
       - faugus-launcher
       - fastfetch
       - uwsm
+      - hyprpanel
       
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
