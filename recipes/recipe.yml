@@ -54,7 +54,6 @@ modules:
       - nwg-look
       - syncthing
       - lact
-      - faugus-launcher
       - fastfetch
       - uwsm
       - hyprpanel
