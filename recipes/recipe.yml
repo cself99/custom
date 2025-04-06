@@ -59,6 +59,7 @@ modules:
       - starship
       - hyprpanel
       - lact
+      - hyprshot
     remove:
        - firefox
        - firefox-langpacks
