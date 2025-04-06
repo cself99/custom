@@ -13,8 +13,8 @@ modules:
     files:
       - source: system
         destination: / 
-   - type: bling
-     install:
+  - type: bling
+    install:
       - rpmfusion
   
   - type: rpm-ostree
