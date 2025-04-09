@@ -26,7 +26,6 @@ modules:
       - rofi-wayland
       - kitty
       - hyprpaper
-      - blueman
       - playerctl
       - neovim
       - btop
