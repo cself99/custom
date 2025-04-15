@@ -6,8 +6,8 @@ name: c
 description: sdzfbbbbb
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/m2giles/m2os
-image-version: cosmic # latest is also supported if you want new updates ASAP
+base-image: ghcr.io/ublue-os/cosmic
+image-version: 41 # latest is also supported if you want new updates ASAP
 modules:
   - type: files
     files:
@@ -63,9 +63,9 @@ modules:
       - hyprshot
       - faugus-launcher
       - dbus-x11
-#    remove:
-#       - firefox
-#       - firefox-langpacks
+    remove:
+       - firefox
+       - firefox-langpacks
        
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
