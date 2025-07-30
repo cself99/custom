@@ -7,72 +7,75 @@ description: sdzfbbbbb
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/silverblue-main
-image-version: 41 # latest is also supported if you want new updates ASAP
+image-version: latest # latest is also supported if you want new updates ASAP
 modules:
   - type: files
     files:
       - source: system
         destination: / 
 
-  - type: rpm-ostree
+  - type: dnf
     repos:
-      - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-41/solopasha-hyprland-fedora-41.repo
-      - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-41/atim-starship-fedora-41.repo
-      - https://copr.fedorainfracloud.org/coprs/ilyaz/LACT/repo/fedora-41/ilyaz-LACT-fedora-41.repo
-      - https://copr.fedorainfracloud.org/coprs/faugus/faugus-launcher/repo/fedora-41/faugus-faugus-launcher-fedora-41.repo
+      nonfree: negativo17
+      files: 
+        - https://negativo17.org/repos/fedora-steam.repo
+      copr:
+        - atim/starship
+        - ilyaz/LACT
+        - faugus/faugus-launcher
+        - yalter/niri-git
+        - garzj/discord-canary
+        - solopasha/hyprland
     install:
-      - gvfs-smb
-      - rofi-wayland
-      - kitty
-      - hyprpaper
-      - playerctl
-      - neovim
-      - btop
-      - jq
-      - qt6ct
-      - hyprsunset
-      - adw-gtk3-theme
-      - hyprpicker
-      - xdg-desktop-portal-hyprland
-      - hyprcursor
-      - hyprland-qtutils
-      - hyprlock
-      - hypridle
-      - hyprland
-      - mate-polkit
-      - micro
-      - upower
-      - libgtop2
-      - grimblast
-      - nodejs
-      - brightnessctl
-      - npm
-      - glfw
-      - mpv
-      - mpv-libs
-      - libGLEW
-      - nwg-look
-      - syncthing
-      - fastfetch
-      - uwsm
-      - nautilus
-      - starship
-      - hyprpanel
-      - lact
-      - hyprshot
-      - faugus-launcher
-      - dbus-x11
-    remove:
-       - firefox
-       - firefox-langpacks
+      packages:
+        - install-weak-deps: false
+          packages:
+            - waybar
+            - discord-canary
+            - steam
+            - kernel-modules-extra
+            - gvfs-smb
+            - rofi-wayland
+            - kitty
+            - playerctl
+            - neovim
+            - btop
+            - jq
+            - niri
+            - qt6ct
+            - adw-gtk3-theme
+            - mate-polkit
+            - micro
+            - upower
+            - libgtop2
+            - nodejs
+            - brightnessctl
+            - npm
+            - glfw
+            - mpv
+            - mpv-libs
+            - libGLEW
+            - nwg-look
+            - syncthing
+            - fastfetch
+            - uwsm
+            - nautilus
+            - starship
+            - lact
+            - faugus-launcher
+            - dbus-x11
+      remove:
+        packages:
+            - firefox
+            - firefox-langpacks
        
   - type: default-flatpaks
-    notify: true # Send notification after install/uninstall is finished (true/false)
-    system:
+    configurations:
+    - notify: false
+      scope: system
       install:
         - net.nokyan.Resources
         - com.github.tchx84.Flatseal
-    user: {}
 
   - type: fonts
     fonts:
