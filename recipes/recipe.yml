@@ -1,13 +1,9 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
-# image will be published to ghcr.io/<user>/<name>
 name: c
-# description will be included in the image's metadata
 description: sdzfbbbbb
-
-# the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/silverblue-main
-image-version: 42 # latest is also supported if you want new updates ASAP
+image-version: 42
 modules:
   - type: files
     files:
@@ -16,6 +12,7 @@ modules:
         
   - type: dnf
     repos:
+      cleanup: true
       files:
         - https://negativo17.org/repos/fedora-steam.repo
       nonfree: negativo17
@@ -27,45 +24,44 @@ modules:
         - garzj/discord-canary
         - solopasha/hyprland
     install:
+      skip-unavailable: true
       packages:
-        - install-weak-deps: false
-          packages:
-            - steam
-            - kernel-modules-extra
-            - waybar
-            - discord-canary
-            - steam
-            - kernel-modules-extra
-            - gvfs-smb
-            - rofi-wayland
-            - kitty
-            - playerctl
-            - neovim
-            - btop
-            - jq
-            - niri
-            - qt6ct
-            - adw-gtk3-theme
-            - mate-polkit
-            - micro
-            - upower
-            - libgtop2
-            - nodejs
-            - brightnessctl
-            - npm
-            - glfw
-            - mpv
-            - mpv-libs
-            - libGLEW
-            - nwg-look
-            - syncthing
-            - fastfetch
-            - uwsm
-            - nautilus
-            - starship
-            - lact
-            - faugus-launcher
-            - dbus-x11
+        - steam
+        - kernel-modules-extra
+        - waybar
+        - discord-canary
+        - steam
+        - kernel-modules-extra
+        - gvfs-smb
+        - rofi-wayland
+        - kitty
+        - playerctl
+        - neovim
+        - btop
+        - jq
+        - niri
+        - qt6ct
+        - adw-gtk3-theme
+        - mate-polkit
+        - micro
+        - upower
+        - libgtop2
+        - nodejs
+        - brightnessctl
+        - npm
+        - glfw
+        - mpv
+        - mpv-libs
+        - libGLEW
+        - nwg-look
+        - syncthing
+        - fastfetch
+        - uwsm
+        - nautilus
+        - starship
+        - lact
+        - faugus-launcher
+        - dbus-x11
     remove:
       packages:
         - firefox
