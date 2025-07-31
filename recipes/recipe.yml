@@ -13,7 +13,10 @@ modules:
   - type: dnf
     repos:
       cleanup: true
+      keys:
+        - https://repo.cider.sh/RPM-GPG-KEY
       files:
+        - cider.repo
         - https://negativo17.org/repos/fedora-steam.repo
       nonfree: negativo17
       copr:
@@ -29,6 +32,7 @@ modules:
     install:
       skip-unavailable: true
       packages:
+        - cider
         - steam
         - kernel-modules-extra
         - waybar
