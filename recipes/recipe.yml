@@ -66,10 +66,10 @@ modules:
             - lact
             - faugus-launcher
             - dbus-x11
-        remove:
-          packages:
-            - firefox
-            - firefox-langpacks
+    remove:
+      packages:
+        - firefox
+        - firefox-langpacks
        
   - type: default-flatpaks
     configurations:
