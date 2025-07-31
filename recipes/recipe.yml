@@ -23,6 +23,9 @@ modules:
         - yalter/niri-git
         - garzj/discord-canary
         - solopasha/hyprland
+        - sneexy/zen-browser
+    optfix:
+      - zen
     install:
       skip-unavailable: true
       packages:
@@ -62,6 +65,7 @@ modules:
         - lact
         - faugus-launcher
         - dbus-x11
+        - zen-browser
     remove:
       packages:
         - firefox
