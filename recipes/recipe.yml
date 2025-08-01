@@ -30,7 +30,7 @@ modules:
     optfix:
       - zen
     install:
-      skip-unavailable: true
+      skip-unavailable: false
       packages:
         - cider
         - steam
