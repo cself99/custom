@@ -32,7 +32,6 @@ modules:
     install:
       skip-unavailable: false
       packages:
-        - cider
         - steam
         - waybar
         - discord-canary
