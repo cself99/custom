@@ -25,7 +25,6 @@ modules:
         - ilyaz/LACT
         - faugus/faugus-launcher
         - yalter/niri-git
-        - garzj/discord-canary
         - solopasha/hyprland
         - sneexy/zen-browser
     optfix:
@@ -45,7 +44,6 @@ modules:
             - gpu-screen-recorder-ui
         - steam
         - waybar
-        - discord-canary
         - steam
         - kernel-modules-extra
         - rofi-wayland
