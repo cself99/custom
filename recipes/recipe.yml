@@ -20,6 +20,7 @@ modules:
         - https://negativo17.org/repos/fedora-steam.repo
       nonfree: negativo17
       copr:
+        - brycensranch/gpu-screen-recorder-git
         - atim/starship
         - ilyaz/LACT
         - faugus/faugus-launcher
@@ -36,6 +37,9 @@ modules:
         - repo: copr:copr.fedorainfracloud.org:yalter:niri-git
           packages:
             - niri
+        - repo: copr:copr.fedorainfracloud.org:brycensranch:gpu-screen-recorder-git
+          packages:
+            - gpu-screen-recorder-ui
         - steam
         - waybar
         - discord-canary
@@ -68,6 +72,7 @@ modules:
         - xwayland-satellite
         - hyprlock
         - swaybg
+        - mate-polkit
     remove:
       packages:
         - firefox
