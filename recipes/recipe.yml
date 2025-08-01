@@ -12,7 +12,7 @@ modules:
         
   - type: dnf
     repos:
-      cleanup: true
+      cleanup: false
       keys:
         - https://repo.cider.sh/RPM-GPG-KEY
       files:
@@ -30,7 +30,7 @@ modules:
     optfix:
       - zen
     install:
-      skip-unavailable: false
+      skip-unavailable: true
       packages:
         - libseat
         - repo: copr:copr.fedorainfracloud.org:yalter:niri-git
@@ -65,6 +65,9 @@ modules:
         - faugus-launcher
         - dbus-x11
         - zen-browser
+        - xwayland-satellite
+        - hyprlock
+        - swaybg
     remove:
       packages:
         - firefox
