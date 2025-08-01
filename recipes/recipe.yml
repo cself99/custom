@@ -34,7 +34,6 @@ modules:
       packages:
         - cider
         - steam
-        - kernel-modules-extra
         - waybar
         - discord-canary
         - steam
