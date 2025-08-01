@@ -38,6 +38,7 @@ modules:
           packages:
             - niri
         - google-noto-fonts
+        - google-noto-sans-fonts
         - google-noto-sans-cjk-fonts
         - repo: copr:copr.fedorainfracloud.org:brycensranch:gpu-screen-recorder-git
           packages:
