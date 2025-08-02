@@ -74,6 +74,7 @@ modules:
         - hyprlock
         - swaybg
         - mate-polkit
+        - mako
     remove:
       packages:
         - firefox
