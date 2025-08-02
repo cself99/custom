@@ -99,7 +99,7 @@ modules:
         - Terminus
         - JetBrainsMono
         - NerdFontsSymbolsOnly
-        - Iosevka Nerd Font
+        - Iosevka
       google-fonts:
         - Noto Sans
         - Roboto
