@@ -78,7 +78,7 @@ modules:
         - mate-polkit
         - mako
         - uxplay
-        - quickshell
+        - quickshell-git
     remove:
       packages:
         - firefox
