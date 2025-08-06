@@ -28,7 +28,7 @@ modules:
         - solopasha/hyprland
         - sneexy/zen-browser
         - errornointernet/quickshell
-        - wef/cliphist
+        - alternateved/cliphist
         - heus-sueh/packages
     optfix:
       - zen
