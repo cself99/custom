@@ -28,6 +28,8 @@ modules:
         - solopasha/hyprland
         - sneexy/zen-browser
         - errornointernet/quickshell
+        - wef/cliphist
+        - heus-sueh/packages
     optfix:
       - zen
     install:
@@ -79,6 +81,14 @@ modules:
         - mako
         - uxplay
         - quickshell-git
+        - cava 
+        - wl-clipboard 
+        - ddcutil 
+        - brightnessctl 
+        - qt5ct 
+        - qt6ct
+        - cliphist
+        - matugen
     remove:
       packages:
         - firefox
