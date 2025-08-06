@@ -27,6 +27,7 @@ modules:
         - yalter/niri-git
         - solopasha/hyprland
         - sneexy/zen-browser
+        - errornointernet/quickshell
     optfix:
       - zen
     install:
@@ -77,6 +78,7 @@ modules:
         - mate-polkit
         - mako
         - uxplay
+        - quickshell
     remove:
       packages:
         - firefox
