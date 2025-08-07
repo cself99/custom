@@ -78,7 +78,6 @@ modules:
         - hyprlock
         - swaybg
         - mate-polkit
-        - mako
         - uxplay
         - quickshell-git
         - cava 
