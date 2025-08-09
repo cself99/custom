@@ -88,6 +88,7 @@ modules:
         - qt6ct
         - cliphist
         - matugen
+        - helix
     remove:
       packages:
         - firefox
