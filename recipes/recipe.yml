@@ -89,6 +89,7 @@ modules:
         - cliphist
         - matugen
         - helix
+        - virt-manager
     remove:
       packages:
         - firefox
