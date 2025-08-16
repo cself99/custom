@@ -32,6 +32,10 @@ modules:
         - heus-sueh/packages
     optfix:
       - zen
+    group-install:
+      with-optional: true
+      packages:
+        - virtualization
     install:
       skip-unavailable: true
       packages:
@@ -46,10 +50,6 @@ modules:
         - repo: copr:copr.fedorainfracloud.org:brycensranch:gpu-screen-recorder-git
           packages:
             - gpu-screen-recorder-ui
-        - group-install:
-            with-optional: true
-            packages:
-              - virtualization
         - steam
         - waybar
         - steam
