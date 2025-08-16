@@ -89,7 +89,7 @@ modules:
         - cliphist
         - matugen
         - helix
-        - virt-manager
+        - @virtualization
     remove:
       packages:
         - firefox
