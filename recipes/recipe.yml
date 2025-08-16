@@ -46,6 +46,10 @@ modules:
         - repo: copr:copr.fedorainfracloud.org:brycensranch:gpu-screen-recorder-git
           packages:
             - gpu-screen-recorder-ui
+        - group-install:
+            with-optional: true
+            packages:
+              - virtualization
         - steam
         - waybar
         - steam
@@ -89,7 +93,6 @@ modules:
         - cliphist
         - matugen
         - helix
-        - @virtualization
     remove:
       packages:
         - firefox
