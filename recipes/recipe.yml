@@ -93,6 +93,7 @@ modules:
         - cliphist
         - matugen
         - helix
+        - input-remapper
     remove:
       packages:
         - firefox
