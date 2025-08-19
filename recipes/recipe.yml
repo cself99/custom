@@ -94,6 +94,7 @@ modules:
         - matugen
         - helix
         - input-remapper
+        - gammastep
     remove:
       packages:
         - firefox
