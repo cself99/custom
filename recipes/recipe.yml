@@ -95,6 +95,7 @@ modules:
         - helix
         - input-remapper
         - gammastep
+        - ghostty
     remove:
       packages:
         - firefox
