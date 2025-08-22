@@ -99,7 +99,6 @@ modules:
         - fish
         - apcupsd
         - nut
-        - helix
     remove:
       packages:
         - firefox
