@@ -30,6 +30,7 @@ modules:
         - errornointernet/quickshell
         - alternateved/cliphist
         - heus-sueh/packages
+        - scottames/ghostty
     optfix:
       - zen
     group-install:
