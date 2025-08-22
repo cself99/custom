@@ -58,7 +58,6 @@ modules:
         - rofi-wayland
         - kitty
         - playerctl
-        - neovim
         - btop
         - qt6ct
         - mate-polkit
@@ -100,6 +99,7 @@ modules:
         - fish
         - apcupsd
         - nut
+        - helix
     remove:
       packages:
         - firefox
