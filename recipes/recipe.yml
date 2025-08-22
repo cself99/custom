@@ -97,6 +97,7 @@ modules:
         - input-remapper
         - gammastep
         - ghostty
+        - fish
     remove:
       packages:
         - firefox
