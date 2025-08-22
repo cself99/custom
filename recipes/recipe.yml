@@ -98,6 +98,8 @@ modules:
         - gammastep
         - ghostty
         - fish
+        - apcupsd
+        - nut
     remove:
       packages:
         - firefox
