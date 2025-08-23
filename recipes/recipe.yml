@@ -99,6 +99,7 @@ modules:
         - fish
         - apcupsd
         - nut
+        - realtime-setup
     remove:
       packages:
         - firefox
