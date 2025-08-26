@@ -102,6 +102,7 @@ modules:
         - realtime-setup
         - hyprshot
         - hyprland-git
+        - mangohud
     remove:
       packages:
         - firefox
