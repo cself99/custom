@@ -103,6 +103,7 @@ modules:
         - hyprshot
         - hyprland-git
         - mangohud
+        - xdg-desktop-portal-hyprland
     remove:
       packages:
         - firefox
