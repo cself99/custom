@@ -104,6 +104,7 @@ modules:
         - hyprland-git
         - mangohud
         - xdg-desktop-portal-hyprland
+        - flameshot
     remove:
       packages:
         - firefox
