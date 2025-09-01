@@ -106,6 +106,8 @@ modules:
         - xdg-desktop-portal-hyprland
         - flameshot
         - freerdp
+        - meson
+        - cmake
     remove:
       packages:
         - firefox
