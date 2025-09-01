@@ -108,6 +108,7 @@ modules:
         - freerdp
         - meson
         - cmake
+        - udis86
     remove:
       packages:
         - firefox
