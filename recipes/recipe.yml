@@ -108,6 +108,7 @@ modules:
         - cmake
         - udis86
         - hyprland-plugins-git
+        - hyprsunset
     remove:
       packages:
         - firefox
