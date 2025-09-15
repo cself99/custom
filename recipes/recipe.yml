@@ -64,8 +64,6 @@ modules:
         - brightnessctl
         - npm
         - glfw
-        - mpv
-        - mpv-libs
         - libGLEW
         - nwg-look
         - syncthing
