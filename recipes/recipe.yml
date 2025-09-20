@@ -31,6 +31,7 @@ modules:
         - alternateved/cliphist
         - heus-sueh/packages
         - scottames/ghostty
+        - erikreider/SwayNotificationCenter
     optfix:
       - zen
     group-install:
@@ -48,9 +49,7 @@ modules:
         - repo: copr:copr.fedorainfracloud.org:brycensranch:gpu-screen-recorder-git
           packages:
             - gpu-screen-recorder-ui
-        - repo: copr:copr.fedorainfracloud.org:erikreider:SwayNotificationCenter
-          packages:
-            - gtk4-layer-shell
+        - gtk4-layer-shell
         - steam
         - waybar
         - mpv
