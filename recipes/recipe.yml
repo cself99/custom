@@ -101,6 +101,7 @@ modules:
         - meson
         - cmake
         - udis86
+        - freerdp
         - hyprland-plugins-git
         - hyprsunset
     remove:
