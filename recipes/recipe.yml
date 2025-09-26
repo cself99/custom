@@ -23,7 +23,6 @@ modules:
         - brycensranch/gpu-screen-recorder-git
         - atim/starship
         - ilyaz/LACT
-        - faugus/faugus-launcher
         - yalter/niri-git
         - solopasha/hyprland
         - sneexy/zen-browser
@@ -70,7 +69,6 @@ modules:
         - uwsm
         - starship
         - lact
-        - faugus-launcher
         - dbus-x11
         - zen-browser
         - hyprlock
