@@ -31,6 +31,7 @@ modules:
         - heus-sueh/packages
         - scottames/ghostty
         - erikreider/SwayNotificationCenter
+        - garzj/discord-canary
     optfix:
       - zen
     group-install:
@@ -62,6 +63,7 @@ modules:
         - qt6ct
         - mate-polkit
         - micro
+        - discord-canary
         - nodejs
         - brightnessctl
         - npm
