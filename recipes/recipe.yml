@@ -76,6 +76,7 @@ modules:
         - uwsm
         - starship
         - lact
+        - hyprland-qtutils
         - dbus-x11
         - zen-browser
         - nwg-look
