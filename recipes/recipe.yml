@@ -63,7 +63,7 @@ modules:
         - qt6ct
         - mate-polkit
         - micro
-        - discord-canary
+        - pnpm
         - nodejs
         - brightnessctl
         - npm
