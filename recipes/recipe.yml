@@ -32,6 +32,7 @@ modules:
         - scottames/ghostty
         - erikreider/SwayNotificationCenter
         - garzj/discord-canary
+        - avengemedia/dms-git
     optfix:
       - zen
     group-install:
@@ -53,6 +54,7 @@ modules:
         - waybar
         - mpv
         - mpv-libs
+        - dms
         - kernel-modules-extra
         - playerctl
         - steam
