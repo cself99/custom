@@ -69,6 +69,7 @@ modules:
         - glfw
         - libGLEW
         - nwg-look
+        - gparted
         - syncthing
         - fastfetch
         - xwayland-satellite
