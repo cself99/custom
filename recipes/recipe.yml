@@ -67,6 +67,7 @@ modules:
         - brightnessctl
         - npm
         - glfw
+        - qt6-qtbase
         - libGLEW
         - nwg-look
         - gparted
