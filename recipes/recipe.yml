@@ -70,7 +70,6 @@ modules:
         - qt6-qtbase
         - libGLEW
         - nwg-look
-        - hyprland-devel
         - gparted
         - syncthing
         - fastfetch
