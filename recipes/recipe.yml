@@ -31,16 +31,13 @@ modules:
         - erikreider/SwayNotificationCenter
         - garzj/discord-canary
         - avengemedia/dms-git
+        - solopasha/hyprland
     optfix:
       - zen
     group-install:
       with-optional: true
       packages:
         - virtualization
-    replace:
-    - from-repo: updates
-      packages:
-        - qt6-qtbase
     install:
       skip-unavailable: true
       packages:
@@ -81,7 +78,6 @@ modules:
         - uwsm
         - starship
         - lact
-        - hyprland-guiutils
         - dbus-x11
         - zen-browser
         - nwg-look
@@ -109,16 +105,19 @@ modules:
         - repo: copr:copr.fedorainfracloud.org:solopasha:hyprland
           packages:
             - hyprshot
-        - hyprland-git
+        - repo: copr:copr.fedorainfracloud.org:lionheartp:Hyprland
+          packages:
+            - hyprland-git
+            - xdg-desktop-portal-hyprland
+            - hyprland-plugins-git
+            - hyprsunset
+            - hyprland-guiutils
         - mangohud
-        - xdg-desktop-portal-hyprland
         - flameshot
         - meson
         - cmake
         - udis86
         - freerdp
-        - hyprland-plugins-git
-        - hyprsunset
     remove:
       packages:
         - firefox
