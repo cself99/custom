@@ -115,6 +115,7 @@ modules:
       packages:
         - firefox
         - firefox-langpacks
+        - qt6-qtbase
        
   - type: default-flatpaks
     configurations:
