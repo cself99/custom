@@ -22,7 +22,7 @@ modules:
         - atim/starship
         - ilyaz/LACT
         - yalter/niri-git
-        - solopasha/hyprland
+        - lionheartp/hyprland
         - sneexy/zen-browser
         - errornointernet/quickshell
         - alternateved/cliphist
@@ -79,7 +79,7 @@ modules:
         - uwsm
         - starship
         - lact
-        - hyprland-qtutils
+        - hyprland-guiutils
         - dbus-x11
         - zen-browser
         - nwg-look
