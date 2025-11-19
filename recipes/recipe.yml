@@ -54,7 +54,6 @@ modules:
             - gpu-screen-recorder-ui
         - gtk4-layer-shell
         - waybar
-        - repo: updates
         - mpv
         - mpv-libs
         - dms
