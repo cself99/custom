@@ -106,7 +106,9 @@ modules:
         - apcupsd
         - nut
         - realtime-setup
-        - hyprshot
+        - repo: copr:copr.fedorainfracloud.org:solopasha:hyprland
+          packages:
+            - hyprshot
         - hyprland-git
         - mangohud
         - xdg-desktop-portal-hyprland
