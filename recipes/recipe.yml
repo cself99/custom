@@ -37,11 +37,13 @@ modules:
       with-optional: true
       packages:
         - virtualization
+    replace:
+    - from-repo: updates
+      packages:
+        - qt6-qtbase
     install:
       skip-unavailable: true
       packages:
-        - repo: updates
-            - qt6-qtbase
         - Cider
         - libseat
         - google-noto-fonts
@@ -118,7 +120,6 @@ modules:
       packages:
         - firefox
         - firefox-langpacks
-        - qt6-qtbase
        
   - type: default-flatpaks
     configurations:
