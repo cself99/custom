@@ -69,6 +69,8 @@ modules:
         - brightnessctl
         - npm
         - glfw
+        - muParser
+        - muParser-devel
         - qt6-qtbase
         - libGLEW
         - nwg-look
