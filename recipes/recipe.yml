@@ -41,6 +41,8 @@ modules:
     install:
       skip-unavailable: true
       packages:
+        - slurp
+        - grim
         - Cider
         - libseat
         - google-noto-fonts
