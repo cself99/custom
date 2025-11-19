@@ -22,7 +22,7 @@ modules:
         - atim/starship
         - ilyaz/LACT
         - yalter/niri-git
-        - lionheartp/hyprland
+        - lionheartp/Hyprland
         - sneexy/zen-browser
         - errornointernet/quickshell
         - alternateved/cliphist
