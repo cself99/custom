@@ -43,6 +43,8 @@ modules:
       skip-unavailable: true
       packages:
         - slurp
+        - tomlplusplus
+        - re2
         - grim
         - Cider
         - libseat
