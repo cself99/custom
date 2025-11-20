@@ -113,14 +113,14 @@ modules:
         - repo: copr:copr.fedorainfracloud.org:lionheartp:Hyprland
           packages:
             - hyprland-git
-            - xdg-desktop-portal-hyprland
             - hyprland-plugins-git
-            - hyprsunset
             - hyprland-guiutils
         - mangohud
         - flameshot
         - meson
         - cmake
+        - hyprsunset
+        - xdg-desktop-portal-hyprland
         - udis86
         - freerdp
     remove:
