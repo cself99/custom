@@ -39,6 +39,7 @@ modules:
       packages:
         - virtualization
     install:
+      install-weak-deps: true
       skip-unavailable: true
       packages:
         - slurp
