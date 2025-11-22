@@ -115,6 +115,7 @@ modules:
             - hyprland-git
             - hyprland-plugins-git
             - hyprland-guiutils
+            - hyprgraphics
         - mangohud
         - flameshot
         - meson
