@@ -79,11 +79,8 @@ modules:
         - apcupsd
         - nut
         - realtime-setup
-        - repo: copr:copr.fedorainfracloud.org:lionheartp:Hyprland
-          packages:
-            - hyprland-git
-            - hyprland-plugins-git
-            - hyprshot
+        - hyprland-git
+        - hyprshot
         - mangohud
         - xdg-desktop-portal-hyprland
         - freerdp
