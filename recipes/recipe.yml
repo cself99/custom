@@ -80,6 +80,7 @@ modules:
         - nut
         - realtime-setup
         - hyprland-git
+        - hyprland-guiutils
         - hyprshot
         - mangohud
         - xdg-desktop-portal-hyprland
