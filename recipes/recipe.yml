@@ -2,8 +2,8 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 name: dux
 description: sdzfbbbbb
-base-image: ghcr.io/ublue-os/bazzite-dx-gnome
-image-version: 43
+base-image: ghcr.io/ublue-os/base-main
+image-version: latest
 modules:
   - type: files
     files:
@@ -21,19 +21,13 @@ modules:
         - brycensranch/gpu-screen-recorder-git
         - atim/starship
         - ilyaz/LACT
-        - yalter/niri-git
         - lionheartp/Hyprland
         - sneexy/zen-browser
         - errornointernet/quickshell
         - alternateved/cliphist
-        - heus-sueh/packages
         - scottames/ghostty
         - erikreider/SwayNotificationCenter
-        - garzj/discord-canary
         - avengemedia/dms-git
-        - solopasha/hyprland
-    optfix:
-      - zen
     group-install:
       with-optional: true
       packages:
@@ -43,8 +37,6 @@ modules:
       skip-unavailable: true
       packages:
         - slurp
-        - tomlplusplus
-        - re2
         - grim
         - Cider
         - libseat
@@ -65,65 +57,37 @@ modules:
         - btop
         - qt6ct
         - mate-polkit
-        - micro
-        - pnpm
-        - nodejs
-        - brightnessctl
-        - npm
-        - glfw
-        - muParser
-        - muParser-devel
-        - qt6-qtbase
-        - libGLEW
-        - nwg-look
         - gparted
         - syncthing
         - fastfetch
-        - xwayland-satellite
         - uwsm
         - starship
         - lact
         - dbus-x11
         - zen-browser
-        - nwg-look
         - hyprlock
-        - swaybg
         - mate-polkit
         - uxplay
         - quickshell-git
-        - cava 
         - wl-clipboard 
-        - ddcutil 
-        - brightnessctl 
-        - qt5ct 
         - qt6ct
         - cliphist
         - matugen
         - helix
-        - input-remapper
-        - gammastep
         - ghostty
         - fish
         - apcupsd
         - nut
         - realtime-setup
-        - repo: copr:copr.fedorainfracloud.org:solopasha:hyprland
-          packages:
-            - hyprshot
         - repo: copr:copr.fedorainfracloud.org:lionheartp:Hyprland
           packages:
             - hyprland-git
             - hyprland-plugins-git
-            - hyprland-guiutils
-            - hyprgraphics
+            - hyprshot
         - mangohud
-        - flameshot
-        - meson
-        - cmake
-        - hyprsunset
         - xdg-desktop-portal-hyprland
-        - udis86
         - freerdp
+        - cosmic-greeter
     remove:
       packages:
         - firefox
