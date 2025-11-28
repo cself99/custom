@@ -94,14 +94,6 @@ modules:
       packages:
         - firefox
         - firefox-langpacks
-       
-  - type: default-flatpaks
-    configurations:
-    - notify: false
-      scope: system
-      install:
-        - net.nokyan.Resources
-        - com.github.tchx84.Flatseal
 
   - type: fonts
     fonts:
