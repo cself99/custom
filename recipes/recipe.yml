@@ -71,6 +71,7 @@ modules:
         - hyprlock
         - mate-polkit
         - uxplay
+        - rclone
         - quickshell-git
         - wl-clipboard 
         - qt6ct
