@@ -28,7 +28,7 @@ modules:
         - scottames/ghostty
         - erikreider/SwayNotificationCenter
         - avengemedia/dms-git
-        - yalter/niri
+        - yalter/niri-git
     group-install:
       with-optional: true
       packages:
@@ -63,13 +63,11 @@ modules:
         - gparted
         - syncthing
         - fastfetch
-        - uwsm
         - starship
         - lact
         - dbus-x11
         - zen-browser
         - hyprlock
-        - mate-polkit
         - uxplay
         - rclone
         - quickshell-git
