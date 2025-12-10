@@ -23,9 +23,7 @@ modules:
         - ilyaz/LACT
         - lionheartp/Hyprland
         - sneexy/zen-browser
-        - errornointernet/quickshell
         - alternateved/cliphist
-        - scottames/ghostty
         - erikreider/SwayNotificationCenter
         - avengemedia/dms-git
         - avengemedia/danklinux
