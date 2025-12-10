@@ -61,6 +61,7 @@ modules:
         - qt6ct
         - mate-polkit
         - gparted
+        - dms-greeter
         - syncthing
         - fastfetch
         - starship
