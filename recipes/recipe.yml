@@ -28,6 +28,7 @@ modules:
         - scottames/ghostty
         - erikreider/SwayNotificationCenter
         - avengemedia/dms-git
+        - avengemedia/danklinux
         - yalter/niri
     group-install:
       with-optional: true
