@@ -64,6 +64,7 @@ modules:
         - lact
         - dbus-x11
         - zen-browser
+        - adw-gtk3-theme
         - uxplay
         - rclone
         - wl-clipboard
