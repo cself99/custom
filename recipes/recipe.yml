@@ -47,7 +47,6 @@ modules:
           packages:
             - gpu-screen-recorder-ui
         - gtk4-layer-shell
-        - waybar
         - mpv
         - mpv-libs
         - dms
@@ -58,7 +57,6 @@ modules:
         - xwayland-satellite
         - btop
         - qt6ct
-        - mate-polkit
         - gparted
         - dms-greeter
         - syncthing
@@ -67,13 +65,10 @@ modules:
         - lact
         - dbus-x11
         - zen-browser
-        - hyprlock
         - uxplay
         - rclone
-        - quickshell-git
         - wl-clipboard 
         - qt6ct
-        - cliphist
         - matugen
         - helix
         - ghostty
@@ -83,7 +78,6 @@ modules:
         - realtime-setup
         - hyprland-git
         - hyprland-guiutils
-        - hyprshot
         - mangohud
         - xdg-desktop-portal-hyprland
         - freerdp
