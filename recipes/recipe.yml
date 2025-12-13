@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 name: dux
 description: sdzfbbbbb
-base-image: ghcr.io/ublue-os/bazzite-dx-gnome
+base-image: ghcr.io/ublue-os/base-main
 image-version: latest
 modules:
   - type: files
@@ -23,7 +23,6 @@ modules:
         - ilyaz/LACT
         - lionheartp/Hyprland
         - sneexy/zen-browser
-        - alternateved/cliphist
         - erikreider/SwayNotificationCenter
         - avengemedia/dms-git
         - avengemedia/danklinux
@@ -67,7 +66,9 @@ modules:
         - zen-browser
         - uxplay
         - rclone
-        - wl-clipboard 
+        - wl-clipboard
+        - nautilus
+        - xdg-desktop-portal-gnome
         - qt6ct
         - matugen
         - helix
