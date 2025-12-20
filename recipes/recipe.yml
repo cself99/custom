@@ -37,6 +37,7 @@ modules:
       packages:
         - slurp
         - grim
+        - discord
         - Cider
         - libseat
         - google-noto-fonts
