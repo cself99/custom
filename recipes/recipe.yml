@@ -26,7 +26,7 @@ modules:
         - erikreider/SwayNotificationCenter
         - avengemedia/dms-git
         - avengemedia/danklinux
-        - yalter/niri
+        - yalter/niri-git
     group-install:
       with-optional: true
       packages:
