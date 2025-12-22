@@ -27,6 +27,7 @@ modules:
         - avengemedia/dms-git
         - avengemedia/danklinux
         - yalter/niri-git
+        - scrollwm/packages 
     group-install:
       with-optional: true
       packages:
@@ -70,6 +71,8 @@ modules:
         - adw-gtk3-theme
         - uxplay
         - rclone
+        - scroll
+        - xdg-desktop-portal-wlr
         - wl-clipboard
         - nautilus
         - xdg-desktop-portal-gnome
