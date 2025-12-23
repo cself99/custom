@@ -66,6 +66,7 @@ modules:
         - fastfetch
         - starship
         - lact
+        - udis86
         - dbus-x11
         - zen-browser
         - adw-gtk3-theme
