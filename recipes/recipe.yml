@@ -69,6 +69,7 @@ modules:
         - starship
         - lact
         - udis86
+        - udis86-devel
         - dbus-x11
         - zen-browser
         - adw-gtk3-theme
