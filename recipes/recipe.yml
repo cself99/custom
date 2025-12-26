@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 name: dux
 description: sdzfbbbbb
-base-image: ghcr.io/ublue-os/silverblue-main
+base-image: ghcr.io/ublue-os/bazzite-dx-gnome
 image-version: latest
 modules:
   - type: files
@@ -27,7 +27,8 @@ modules:
         - avengemedia/dms-git
         - avengemedia/danklinux
         - yalter/niri-git
-        - scrollwm/packages 
+        - scrollwm/packages
+        - solopasha/hyprland
     group-install:
       with-optional: true
       packages:
@@ -65,12 +66,10 @@ modules:
         - syncthing
         - cmake
         - meson
-        - hyprland-devel
         - fastfetch
         - starship
         - lact
         - udis86
-        - udis86-devel
         - dbus-x11
         - zen-browser
         - adw-gtk3-theme
@@ -89,8 +88,14 @@ modules:
         - apcupsd
         - nut
         - realtime-setup
-        - hyprland
-        - hyprland-guiutils
+        - repo: copr:copr.fedorainfracloud.org:lionheartp:Hyprland
+          packages:
+            - hyprland-git
+            - hyprland-guiutils
+            - hyprland-plugins-git
+        - repo: copr:copr.fedorainfracloud.org:solopasha:hyprland
+          packages:
+            - hyprnome
         - mangohud
         - xdg-desktop-portal-hyprland
         - freerdp
