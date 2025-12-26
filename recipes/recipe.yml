@@ -89,7 +89,7 @@ modules:
         - apcupsd
         - nut
         - realtime-setup
-        - hyprland-git
+        - hyprland
         - hyprland-guiutils
         - mangohud
         - xdg-desktop-portal-hyprland
