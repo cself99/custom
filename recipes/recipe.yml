@@ -93,6 +93,7 @@ modules:
         - mangohud
         - xdg-desktop-portal-hyprland
         - freerdp
+        - hyprnome.rpm
     remove:
       packages:
         - firefox
