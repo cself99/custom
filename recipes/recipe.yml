@@ -28,7 +28,6 @@ modules:
         - avengemedia/danklinux
         - yalter/niri-git
         - scrollwm/packages
-        - solopasha/hyprland
     group-install:
       with-optional: true
       packages:
@@ -88,12 +87,10 @@ modules:
         - apcupsd
         - nut
         - realtime-setup
-        - repo: copr:copr.fedorainfracloud.org:lionheartp:Hyprland
-          packages:
-            - hyprland-git
-            - hyprland-guiutils
-            - hyprland-plugins-git
-        - repo: copr:copr.fedorainfracloud.org:solopasha:hyprland
+        - hyprland-git
+        - hyprland-guiutils
+        - hyprland-plugins-git
+        - from-repo: copr:copr.fedorainfracloud.org:solopasha:hyprland
           packages:
             - hyprnome
         - mangohud
