@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 name: dux
 description: sdzfbbbbb
-base-image: ghcr.io/ublue-os/bazzite-dx-gnome
+base-image: ghcr.io/ublue-os/silverblue-main
 image-version: latest
 modules:
   - type: files
@@ -71,6 +71,7 @@ modules:
         - udis86
         - dbus-x11
         - zen-browser
+        - hyprland-git-devel
         - adw-gtk3-theme
         - uxplay
         - rclone
