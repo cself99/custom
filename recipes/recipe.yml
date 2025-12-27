@@ -35,9 +35,6 @@ modules:
     install:
       install-weak-deps: true
       skip-unavailable: true
-      - from-repo: copr:copr.fedorainfracloud.org:solopasha:hyprland
-        packages:
-          - hyprnome
       packages:
         - slurp
         - grim
