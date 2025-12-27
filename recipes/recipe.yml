@@ -35,6 +35,9 @@ modules:
     install:
       install-weak-deps: true
       skip-unavailable: true
+      - from-repo: copr:copr.fedorainfracloud.org:solopasha:hyprland
+        packages:
+          - hyprnome
       packages:
         - slurp
         - grim
@@ -90,14 +93,9 @@ modules:
         - hyprland-git
         - hyprland-guiutils
         - hyprland-plugins-git
-        
         - mangohud
         - xdg-desktop-portal-hyprland
         - freerdp
-    install:
-      -  from-repo: copr:copr.fedorainfracloud.org:solopasha:hyprland
-         packages:
-           - hyprnome
     remove:
       packages:
         - firefox
