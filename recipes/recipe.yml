@@ -98,6 +98,7 @@ modules:
     remove:
       packages:
         - firefox
+        - pipewire-config-raop
         - firefox-langpacks
 
   - type: fonts
