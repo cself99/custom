@@ -72,7 +72,6 @@ modules:
         - udis86
         - dbus-x11
         - zen-browser
-        - hyprland-git-devel
         - adw-gtk3-theme
         - uxplay
         - rclone
@@ -89,13 +88,8 @@ modules:
         - apcupsd
         - nut
         - realtime-setup
-        #- hyprland-git
-        #- hyprland-guiutils
-        #- hyprland-plugins-git
         - mangohud
-        #- xdg-desktop-portal-hyprland
         - freerdp
-        #- hyprnome.rpm
     remove:
       packages:
         - firefox
