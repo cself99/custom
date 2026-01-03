@@ -28,7 +28,6 @@ modules:
         - avengemedia/danklinux
         - yalter/niri-git
         - scrollwm/packages
-        - bieszczaders/kernel-cachyos
     group-install:
       with-optional: true
       packages:
@@ -51,7 +50,7 @@ modules:
         - mpv
         - mpv-libs
         - dms
-        - kernel-cachyos
+        - kernel-modules-extra
         - playerctl
         - steam
         - repo: copr:copr.fedorainfracloud.org:yalter:niri-git
