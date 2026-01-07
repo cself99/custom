@@ -90,6 +90,7 @@ modules:
         - realtime-setup
         - mangohud
         - freerdp
+        - luminous.rpm
     remove:
       packages:
         - firefox
