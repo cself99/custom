@@ -69,6 +69,12 @@ modules:
         - fastfetch
         - starship
         - lact
+        - hyprland-git-devel
+        - hyprland-git
+        - hyprland-guiutils
+        - hyprland-plugins-git
+        - hyprnome.rpm
+        - xdg-desktop-portal-hyprland
         - udis86
         - dbus-x11
         - zen-browser
